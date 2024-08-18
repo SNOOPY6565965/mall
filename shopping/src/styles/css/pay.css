@@ -1,0 +1,151 @@
+/* 订单结算台 */
+.pay{
+  overflow: hidden;
+}
+.van-nav-bar{
+  .van-icon-arrow-left{
+    color:gray;
+  }
+}
+.img1{
+  position: relative;
+  width: 20px;
+  left:30px;
+  top:40px;
+}
+.box1{
+  position: relative;
+  left:70px;
+  color:gray;
+}
+.van-icon-arrow{
+  position: relative;
+  left:300px;
+  top:-30px;
+}
+li{
+  float:left;
+  margin:5px 5px;
+  width: 20px;
+  height: 5px;
+  background-color:rgb(101, 178, 211);
+  transform: skewX(-30deg);
+}
+li:nth-child(odd){
+  background-color:rgb(196, 106, 103);
+}
+.p2{
+  width: 60%;
+}
+.box2{
+  position: relative;
+  height: 50px;
+  left: 100px;
+  top:14px;
+}
+/* 商品 */
+.goods{
+  margin: 10px 10px;
+  height: 120px;
+}
+.goods img{
+  width: 100px;
+}
+.goods_name{
+  position: relative;
+  left:105px;
+  top:-90px;
+  font-size:15px;
+  width: 250px;
+  height: 40px;
+  overflow: hidden;
+}
+.goods_detail{
+  position: relative;
+  left:105px;
+  top:-80px;
+}
+.goods_detail .goods_price{
+  position: relative;
+  left:150px;
+  color:rgb(225, 152, 153);
+}
+.totalNum{
+  position: relative;
+  left: 130px;
+  top:-10px;
+}
+.totalPrice{
+  color:rgb(225, 152, 153);
+}
+hr{
+  color:gray;
+}
+.p{
+  margin:15px 10px;
+  font-size:15px;
+
+}
+.p span{
+  position: relative;
+}
+.sp1{
+  left:190px;
+  color:rgb(225, 152, 153)
+}
+.sp2{
+  left:220px;
+}
+.sp3{
+  left:240px;
+  color:rgb(225, 152, 153)
+}
+
+.zf1{
+  margin:15px 10px;
+}
+.zf2{
+  margin:15px 20px;
+}
+.van-icon-passed{
+  position: relative;
+  left:80px;
+  color:red;
+}
+
+.text{
+  width: 100%;
+  height: 150px;
+  border:none;
+  border-top:1px solid rgba(162, 157, 157,0.5);
+}
+
+/* 底部 */
+.footer{
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-top:1px solid rgba(169, 162, 162,0.5);
+}
+.footer p{
+  position: relative;
+  top:15px;
+  left:20px;
+  font-size:15px;
+  color:gray;
+}
+.footer p span{
+  color:rgb(223, 102, 88);
+}
+.footer .btn{
+  position: relative;
+  left:255px;
+  top:-22px;
+  width: 120px;
+  height: 50px;
+  border:none;
+  background-image: linear-gradient(to right,rgb(255, 58, 26),rgb(252, 103, 47));
+  color:white;
+}

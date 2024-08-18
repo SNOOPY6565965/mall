@@ -1,0 +1,133 @@
+/* 购物车 */
+.shopping{
+  overflow: hidden;
+  background-color: rgb(245, 245, 245);
+}
+.edit-box{
+  width: 100%;
+  height: 40px;
+  background-color:rgb(245, 245, 245);
+}
+.edit-box{
+  span{
+    position: relative;
+    left:20px;
+    top:15px;
+  }
+}
+.van-icon-edit{
+  position: relative;
+  left:250px;
+  top:15px;
+}
+.checked-box{
+  position: relative;
+  width: 90%;
+  height: 120px;
+  background-color:white;
+  margin:10px 20px;
+}
+.checked-box{
+  .van-checkbox__icon{
+  position: absolute;
+  top:40px;
+}
+}
+
+img{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left:30px;
+  top:10px;
+}
+.goods{
+  position: relative;
+  top:-90px;
+  left:140px;
+}
+.p1{
+  width: 180px;
+  height: 35px;
+  overflow:hidden;
+}
+.p2{
+  position: relative;
+  top:20px;
+  font-size:15px;
+  color:red;
+}
+.count-box{
+  position: relative;
+  left:100px;
+}
+
+/* 底部 */
+.foot{
+  position: fixed;
+  width: 100%;
+  height:40px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  top:448px;
+}
+.foot .van-checkbox{
+  position: relative;
+  width: 80px;
+  height: 20px;
+  top:10px;
+  left:10px;
+
+}
+.foot p{
+  position: relative;
+  left:120px;
+  font-size:15px;
+  top:-10px;
+  span{
+    font-size:20px;
+    color:red;
+  }
+}
+.foot .btn{
+  position: relative;
+  left:270px;
+  top:-37px;
+  width: 80px;
+  height: 30px;
+  background-color:rgb(255, 65, 29);
+  color:aliceblue;
+  border:none;
+  border-radius: 20px;
+  &.disabled{
+    background-color:#ff9779;
+  }
+}
+.empty{
+  width: 100%;
+  height: 440px;
+  background-color:rgb(255, 231, 112);
+}
+.empty img{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  left:40px;
+  top:40px;
+}
+.empty_p{
+  position: relative;
+  left:80px;
+  top:40px;
+}
+.empty_btn{
+  position: relative;
+  width: 100px;
+  height: 30px;
+  border:none;
+  background-color:rgb(255, 63, 27);
+  color:aliceblue;
+  border-radius: 20px;
+  top:60px;
+  left:130px;
+}

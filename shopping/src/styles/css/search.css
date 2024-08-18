@@ -1,0 +1,42 @@
+/* 搜索 - index.js */
+.van-nav-bar{
+  .van-icon-arrow-left{
+    color:gray;
+  }
+}
+.search{
+  width: 85%;
+  height: 40px;
+}
+.btn{
+  position: relative;
+  left:310px;
+  top:-36px;
+  width:15%;
+  height: 30px;
+  background-color: red;
+  border:none;
+  border-radius:10px;
+  color:aliceblue;
+}
+span{
+  position: relative;
+  font-size: 15px;
+  margin-left:20px;
+  top:-10px;
+}
+.del{
+  position: relative;
+  left:250px;
+  top:-10px;
+}
+li{
+  width: 80px;
+  height: 20px;
+  border:1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px;
+  float: left;
+  margin:5px 20px;
+}

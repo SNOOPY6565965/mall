@@ -1,0 +1,61 @@
+/* 收获地址 */
+.box{
+  width: 100%;
+  height: 553px;
+  background-color: rgb(250, 250, 250);
+}
+.van-nav-bar{
+  .van-icon-arrow-left{
+    color:gray;
+  }
+}
+
+.address{
+  position: relative;
+  width: 90%;
+  height: 100px;
+  background-color:aliceblue;
+  margin:10px 20px;
+  overflow: hidden;
+}
+.address .p1{
+  margin:5px 10px;
+}
+.address .p2{
+  margin:5px 10px;
+}
+
+.address .p3{
+  position: relative;
+  left:20px;
+  top:10px;
+}
+
+.address .van-icon{
+  margin:0 5px;
+}
+.address .p4{
+  position: relative;
+  left:200px;
+  top:-10px;
+}
+
+/* 底部 */
+.footer{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+}
+.footer .btn{
+  position: relative;
+  width: 80%;
+  height: 35px;
+  border:none;
+  background-image:linear-gradient(to right,rgb(255, 58, 26),rgb(255, 103, 45));
+  color:white;
+  border-radius:20px;
+  left:30px;
+  top:10px;
+  font-size:12px;
+}

@@ -1,0 +1,49 @@
+.van-nav-bar{
+  .van-icon-arrow-left{
+    color:gray;
+  }
+}
+.p{
+  margin:50px 20px;
+}
+.p1{
+  font-family: '黑体';
+  font-size:30px;
+}
+.p2{
+  font-size:15px;
+  color:#333;
+
+}
+.int{
+  width: 80%;
+  height:30px;
+  margin:40px 30px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+input{
+  border:none;
+  font-size:15px;
+}
+img{
+  position: relative;
+  width: 120px;
+  top:-30px;
+  left:180px;
+}
+.btn1{
+  border:none;
+  color:rgb(237, 205, 190);
+  background:none;
+  font-size:15px;
+}
+.btn2{
+  width: 80%;
+  height: 40px;
+  color:white;
+  font-size:15px;
+  background-image:linear-gradient(to right, #aef, #bfe);
+  border:none;
+  border-radius:20px;
+  margin:20px 40px;
+}

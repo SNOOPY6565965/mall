@@ -1,0 +1,17 @@
+/* 搜索列表 */
+.van-nav-bar{
+  .van-icon-arrow-left{
+    color:gray;
+  }
+}
+.search{
+  width: 90%;
+}
+.apps{
+  position: relative;
+  left:90%;
+  top:-40px;
+}
+span{
+  margin:0 45px;
+}

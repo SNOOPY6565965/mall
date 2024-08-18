@@ -1,0 +1,24 @@
+.count-btn1{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border:none;
+}
+
+.int{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border:none;
+  background-color:rgb(240, 240, 240);
+  left:10px;
+  text-align: center;
+}
+
+.count-btn2{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left:20px;
+  border:none;
+}
